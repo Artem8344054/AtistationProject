@@ -290,7 +290,6 @@
 
 /* action */
 	.action {
-		background: red;
 		padding: 30px;
 		color: yellow;
 	}
@@ -1585,3 +1584,51 @@
 
 }
 
+@media (max-width: 450px) {
+/* index  */
+    .topmenu a {
+		display: flex;
+		justify-content: flex-start;
+        color: #eee;
+        }
+    .container1 {
+        padding-left: 20%;
+        }
+    
+    .topmenu a:first-child::before {
+		display: block;
+	}
+    .topmenu a:first-child {
+		margin-left: 20px;
+	}
+//
+    .action {
+		padding: none;
+		
+        }
+	.action .container {
+		display: grid;
+		justify-items: center;
+		
+	}
+	.action p {
+		width: 100%;
+		text-align: center;
+        font-size: 18px;
+	}
+	.actiontimer {
+		
+        display: flex;
+		line-height: 100%;
+        gap: 5px;
+	}
+	.actiontimer span {
+		font-size: 15px;
+		line-height: 20px;
+		vertical-align: top;
+        
+	}
+
+
+
+}     
