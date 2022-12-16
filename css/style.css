@@ -1482,10 +1482,28 @@
 	}
 
 	footer .container {
-		flex-wrap: wrap;
-		gap: 25px;
+		display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
 		
+	.stolbFooter1, .stolbFooter2,  .stolbFooter3, .stolbFooter4 {
+		margin: inherit;
+        margin: 0px 0px 0px 15%;
+        
 	}
+
+
+
+	.stolbFooter1 a:hover, .stolbFooter2 a:hover,  .stolbFooter3 a:hover, 
+	.stolbFooter4 a:hover, .stolbFooter1 li:hover,.stolbFooter2 li:hover,
+	.stolbFooter3 li:hover,.stolbFooter4 li:hover {
+		
+        font-size: 18px;
+	}
+
+
+}
 
 
 	/* catalog  */
