@@ -1609,9 +1609,22 @@
 		justify-content: flex-start;
         color: #eee;
         }
+    
+    
+    .container {
+    width: auto;
+    margin: 0 10px;
+    }
+    
+            
     .container1 {
         padding-left: 20%;
+        width: 80%;
         }
+        
+    .polePoiska {
+        width: 100%;
+        }    
     
     .topmenu a:first-child::before {
 		display: block;
@@ -1647,6 +1660,6 @@
         
 	}
 
-
+    
 
 }     
