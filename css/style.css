@@ -1711,5 +1711,26 @@
         padding: 8px;
         margin: 0 0 2% 35%;
     }
+    
+ /*basket*/
+    .btn-outline-secondary {
+        height: 100%;
+    }
+    
+    .table, tr .price, .form-label, .form-check-label {
+        font-size: 13px;
+        line-height: 17px;
+        
+        }
+    
+    .table tfoot th {
+        padding-right: 40px;
+        height: 30px;
+        }
+    
+    .table > thead {
+        height: 30px;
+        vertical-align: middle;
+        }
 
 }     
