@@ -1632,11 +1632,10 @@
     .topmenu a:first-child {
 		margin-left: 20px;
 	}
-//
+
     .action {
 		padding: none;
-		
-        }
+    }
 	.action .container {
 		display: grid;
 		justify-items: center;
@@ -1660,6 +1659,57 @@
         
 	}
 
+/*catalog*/
     
+    .catalog aside {
+        flex: 0 0 210px;
+        font-size: 12px;
+    }
+    .catalog .filters {
+        padding: 10px;
+    }
+
+    .product {
+    display: grid;
+    gap: 10px;
+    }
+/*prodact*/
+    
+    .bigimage {
+        width: 390px;    
+    }    
+    
+    .gallery {
+    margin-bottom: 5px;
+    width: 378px;
+    }
+    
+    .gallery > div {
+        width: 360px;
+    }
+    
+    .offer {
+        padding-bottom: 3%;
+    }
+    
+    .offer h1 {
+        font-size: 26px;
+        margin-left: 18%;
+    }
+    .offer p {
+        margin-left: 4%;
+        margin-bottom: 1%;
+    }
+        
+    .product .price {
+    
+        font-size: 45px;
+        line-height: 65px;
+    }
+    
+    .btn-buy {
+        padding: 8px;
+        margin: 0 0 2% 35%;
+    }
 
 }     
